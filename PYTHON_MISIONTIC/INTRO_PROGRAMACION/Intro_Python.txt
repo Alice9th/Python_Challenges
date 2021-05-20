@@ -1,0 +1,27 @@
+Introducción a la algoritmia, Python y operaciones
+
+Descripción de la máquina y metodología de desarrollo de aplicaciones
+
+Esquema general:
+
+CPU: Unidad Aritmética y Lógica ---- BUS DE CONTROL
+     Registros de trabajo---- BUS DE CONTROL
+     Control interno------- BUS DE CONTROL
+
+Puertos seriales: transmiten info bit a bit (modem, sensores)
+
+Puertos paralelos: transmiten muchos bits a la vez (impresoras)
+
+Teclado/pantalla
+
+Pasos en construccion de una app por computador:
+
+1. Análisis del problema
+2. Diseño de la solución
+3. Implementacion de la solución diseñada
+3.1 Elaboracio de algoritmos (análisis, diseño, construccion del algoritmo, Pruebas de escritorio)
+3.2 Codificación (lenguaje de programación)
+3.3 Compilacion
+3.4 Pruebas sistematizadas
+4. Pruebas con el usuario
+5. Puesta en marcha

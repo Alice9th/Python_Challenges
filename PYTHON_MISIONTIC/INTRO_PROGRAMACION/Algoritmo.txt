@@ -1,0 +1,3 @@
+Algoritmo: definición, datos, constantes, variables, instrucciones
+
+
