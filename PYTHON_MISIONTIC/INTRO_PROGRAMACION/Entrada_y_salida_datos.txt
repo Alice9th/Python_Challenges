@@ -22,7 +22,7 @@ apellido = input("Teclee su apellido")
 
 Qué es una variable?
 
-NOmbre que se le asigna dentro de un programa a una posicion dentro de memoria: se puede manipular
+Nombre que se le asigna dentro de un programa a una posicion dentro de memoria: se puede manipular
 
 Lectura de datos y escritura de resultados
 
