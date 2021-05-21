@@ -4,9 +4,9 @@ Descripción de la máquina y metodología de desarrollo de aplicaciones
 
 Esquema general:
 
-BUS DE CONTROL
+BUS DE CONTROL:transporta señales de estado de las operaciones efectuadas por la CPU con las demás unidades (periféricos)
 
-CPU: 
+CPU: cerebro del PC, controla la operacion del sistema. Inicia/realiza las referencias de almacenamiento, manipulacion de datos y operaciones de entrada y salida.
 
 Unidad Aritmética y Lógica: efectua operaciones de suma ---- 
      
@@ -20,16 +20,24 @@ Puertos paralelos: transmiten muchos bits a la vez (impresoras)
 
 Teclado/pantalla
 
+Memoria RAM: tuene datos listos para ser transladados a los registros de trabajo de manera eficiente
+
+Memoria Auxiliar: dispositivos externos para almacenar info
+
+Puerto serial (modem, otros): para conexiones
+
+Puerto Paralelo (impresoras)
+
 Pasos en construccion de una app por computador:
 
-1. Análisis del problema
-2. Diseño de la solución
-3. Implementacion de la solución diseñada
-3.1 Elaboracio de algoritmos (análisis, diseño, construccion del algoritmo, Pruebas de escritorio)
+1. Análisis del problema: estudiar el problema, que datos se requieren
+2. Diseño de la solución: elaboracion de un modelo. Se definene elementos que se necesitan para solucionar el problema
+3. Implementacion de la solución diseñada: conseguir recursos, elaborar los programas y hacer que el sistema funcione
+3.1 Elaboracio de algoritmos (análisis, diseño, construccion del algoritmo, Pruebas de escritorio: modelo con datos ficticios para corroborar que todo funcione)
 3.2 Codificación (lenguaje de programación)
 3.3 Compilacion
 3.4 Pruebas sistematizadas
 4. Pruebas con el usuario
-5. Puesta en marcha
+5. Puesta en marcha: liberar el sistema desarrollado al usuario. Hacer seguimiento
 
 
