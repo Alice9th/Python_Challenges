@@ -6,11 +6,13 @@ Esquema general:
 
 BUS DE CONTROL
 
-CPU: Unidad Aritmética y Lógica: efectua operaciones de suma ---- 
+CPU: 
+
+Unidad Aritmética y Lógica: efectua operaciones de suma ---- 
      
 Registros de trabajo: registros donde se encuentran los datos y las instrucciones sobre las que actúa la unidad lógica---- 
 
-     Control interno ------- 
+Control interno: Determina cuales operaciones se ejecutan sobre cuales datos y con cuales instrucciones------- 
 
 Puertos seriales: transmiten info bit a bit (modem, sensores)
 
