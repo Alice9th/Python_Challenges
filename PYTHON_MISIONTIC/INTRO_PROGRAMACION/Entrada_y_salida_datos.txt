@@ -18,3 +18,20 @@ con la palabra input:
 
 nombre = input("Teclee su nombre")
 apellido = input("Teclee su apellido")
+
+
+Qué es una variable?
+
+NOmbre que se le asigna dentro de un programa a una posicion dentro de memoria: se puede manipular
+
+Lectura de datos y escritura de resultados
+
+las estructuras lógicas para la construcción de un algoritmo son:
+
+1. Estructura secuencia: instrucciones de: lectura, escritura. asignación, instrucciones correspondientes a la estructura ciclo
+
+2. Estructura decisión
+
+3.Estructura ciclo
+
+Cada estructura consta de un conjunto de instrucciones
