@@ -1,3 +1,80 @@
 Algoritmo: definición, datos, constantes, variables, instrucciones
 
+Definición. Un algoritmo es un conjunto de instrucciones que se escriben para que la máquina ejecute una tarea.
 
+Es totalmente indispensable que, para escribir un algoritmo, la persona sepa hacer, externamente a la máquina, la tarea que desea programar.
+
+Elementos necesarios para construir un algoritmo. son dos: estructuras lógicas y datos.
+
+Datos: pueden ser numéricos y no numéricos. 
+Los datos numéricos podrán ser enteros o con parte decimal (reales) y los no numéricos podrán ser hileras de caracteres o datos lógicos (verdadero o falso). En términos de computación, esta clasificación se denomina tipo, por lo cual se habla de datos de tipo entero, de tipo real, de tipo lógico, tipo string, etc.
+
+Representación de datos en un computador
+
+La unidad básica de representación de datos es el bit, que es un acrónimo de las palabras en inglés binary digit (dígito binario: un estado representa el 1 y el otro estado representa el 0)
+
+La siguiente unidad se denomina byte. Un byte es un conjunto de 8 bits. 
+Para cada combinación de unos y ceros que se tenga se ha establecido que representa un carácter específico. Este sistema de codificación es el que se denomina código ASCII (American Standard Code for Information Interchange).
+
+Los bits se numeran de derecha a izquierda, comenzando con el bit 0 y terminando con el bit 7. De los ocho bits, solo siete se utilizan para representar datos, pues el bit 8 se emplea para controlar la transmisión de datos en la memoria del computador.
+
+La siguiente unidad de representación es el campo, que es un conjunto de bytes que se quieren representar.
+
+La siguiente unidad de representación es el registro, que es un conjunto de campos.
+
+La siguiente unidad de representación es el archivo, que es un conjunto de registros.
+
+La siguiente unidad de representación es la base de datos. Una base de datos es un conjunto de archivos relacionados entre sí. 
+
+Estructura de un algoritmo y metodología de elaboración
+
+Estructura de un algortimo:
+- Entrada de datos
+- Procesamiento de datos
+- Salida de resultado
+
+Estructura para la construccion de un algoritmo:
+- Estructura secuencia: orden de escritura de las instrucciones
+- Estructura decisión: evalúa situaciones/condiciones pre-definidas
+- Estructura ciclo: repetir una o más instrucciones n veces
+
+
+Construcción de algoritmos
+
+En un programa de computador se diferencia si los datos son constantes o variables. Un dato es constante si tiene el mismo valor durante toda la ejecución del programa, y es variable si su valor cambia durante la ejecución.
+
+En general, puede decirse que a cada uno de los datos que se manipulan dentro de un programa de computador se le asigna un nombre: ese nombre que se le asigna se conoce como variable.
+
+**una variable es un nombre que indica en cuál posición de memoria se halla almacenado un dato**
+
+Cuando se define el nombre de una variable es necesario que indicar si es constante, cuando lo sea. De lo contrario, siempre será variable.
+
+Las instrucciones básicas son instrucciones de lectura, de escritura, de asignación, de decisión y de ciclos.
+
+La estructura básica de un algoritmo es: lea dato, procese dato, muestre resultado.
+
+Pasos en la construcción de un algoritmo.
+
+
+Análisis del problema: determinar exactamente cuáles son los datos de entrada que se requieren, cuál es la información que se desea producir y cuál es el proceso que se debe efectuar sobre los datos
+
+Diseño de la solución: se asignan nombres a las variables, se define el tipo de cada una de ellas y se definen las operaciones y/o subprocesos que hay que efectuar y el método para resolver cada uno de ellos.
+
+Construcción del algoritmo: elementos: datos, estructuras e instrucciones.
+
+Prueba de escritorio: consiste en asumir el rol de computador y ejecutar el algoritmo que se ha elaborado para ver cómo es su funcionamiento. 
+
+
+Estructuras para construir algoritmos. 
+
+Las estructuras básicas para construir un algoritmo son: 
+
+1. Estructura secuencia:Las instrucciones se ejecutan exactamente en el orden en que están escritas
+
+2. Estructura decisión: permite instruir a la máquina para que evalúe situaciones y datos y para que ejecute la acción correspondiente al resultado de la evaluación.
+
+3. Estructura ciclo: onsiste en instruir a la máquina cuál instrucción o conjunto de instrucciones debe repetir mientras se cumpla determinada condición.
+
+
+**La estructura básica de un programa de computador es:
+Lectura, cálculos y escritura

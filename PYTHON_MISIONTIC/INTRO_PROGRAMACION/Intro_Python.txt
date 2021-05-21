@@ -4,9 +4,13 @@ Descripción de la máquina y metodología de desarrollo de aplicaciones
 
 Esquema general:
 
-CPU: Unidad Aritmética y Lógica ---- BUS DE CONTROL
-     Registros de trabajo---- BUS DE CONTROL
-     Control interno------- BUS DE CONTROL
+BUS DE CONTROL
+
+CPU: Unidad Aritmética y Lógica: efectua operaciones de suma ---- 
+     
+Registros de trabajo: registros donde se encuentran los datos y las instrucciones sobre las que actúa la unidad lógica---- 
+
+     Control interno ------- 
 
 Puertos seriales: transmiten info bit a bit (modem, sensores)
 
@@ -25,3 +29,5 @@ Pasos en construccion de una app por computador:
 3.4 Pruebas sistematizadas
 4. Pruebas con el usuario
 5. Puesta en marcha
+
+
