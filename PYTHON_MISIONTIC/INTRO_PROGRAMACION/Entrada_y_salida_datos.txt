@@ -1,0 +1,20 @@
+Entrada y salida de datos
+
+SALIDA DE DATOS:
+
+Python: instrucción print
+
+print(lista de variables y mensajes separados por una coma)
+
+Los mensajes van encerrados en doble comilla
+
+a = 7+5
+print(f"7+5 {a}"): en este caso al tener f y la variable entre {} nos dará el resultado de esta variable
+7+5 = 12
+
+ENTRADA DE DATOS:
+
+con la palabra input:
+
+nombre = input("Teclee su nombre")
+apellido = input("Teclee su apellido")
