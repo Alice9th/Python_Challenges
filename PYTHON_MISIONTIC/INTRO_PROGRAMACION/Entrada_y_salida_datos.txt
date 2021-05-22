@@ -35,3 +35,21 @@ las estructuras lógicas para la construcción de un algoritmo son:
 3.Estructura ciclo
 
 Cada estructura consta de un conjunto de instrucciones
+
+1.Instrucciones de lectura: Para que el computador pueda procesar datos, estos deben estar en la memoria principal (RAM). La instrucción de lectura consiste en llevar los datos con los cuales se desea trabajar desde un medio externo (discos duros, removibles, cinta, etc) hacia la memoria principal.
+
+La forma general de la instrucción de lectura en Python es:
+
+            variable = input(“mensaje de entrada de dato: “)
+
+2.Instrucciones de escritura: La instrucción de escritura consiste en llevar datos desde la memoria hacia un medio externo, el cual puede ser un disco duro, una cinta, una impresora, etc.
+
+ La forma general de la instrucción de escritura en Python es:
+
+             print([lista de mensajes y variables separados por comas])
+
+3.Instrucciones de asignación
+
+4.Las instrucciones correspondientes a la estructura decisión
+
+5.Las instrucciones correspondientes a la estructura ciclo
