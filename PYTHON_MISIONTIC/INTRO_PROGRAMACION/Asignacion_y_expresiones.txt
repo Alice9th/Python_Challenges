@@ -1,0 +1,80 @@
+Instrucción de asignación y expresiones aritméticas
+
+Asignacion: llevar datos a una posicion de memoria
+
+Forma general de asignación:
+
+
+Variable (izq): cte numércia
+                Variable
+                Expresion (aritmetica/logica)
+                Mensaje
+                Valor lógico
+
+Expresiones aritméticas
+
+**Conversión de expresiones de lenguajes de programación a expresiones algebraicas**
+
+Potencia: Propiedad asociativa desde la derecha
+
+f = 2
+
+e = 4
+
+f**f**e
+2**2⁴
+2¹⁶ = 65536
+
+
+Si se utiliza paréntesis:
+
+(f**)**e
+(2**2)**4
+4**4 = 256
+
+Multiplicación: asociativa por la izquierda
+
+%: se realiza primero 
+
+Expresiones. En general, una expresión es una sucesión de operandos y operadores, la cual puede ser de tres clases:
+
+1.Expresión aritmética
+2.Expresión relacional
+3.Expresión lógica
+
+Una expresión aritmética es una sucesión de operandos y operadores aritméticos en la cual los operadores actúan sobre los operandos. Los operadores aritméticos se presentan a continuación:
+
+Operador	Operación
+**          Potenciación
+
+*           Multiplicación
+
+/           División real
+
+//          División entera
+
+%           Módulo (El operador módulo calcula el residuo de una                 división entera.)
+
++	        Suma
+–           Resta
+
+
+Es muy importante tener en cuenta que, en Python, cuando se utiliza el operador / para la división, el resultado siempre será con decimales, mientras que, si se usa el operador //, el resultado siempre será un número entero, que se obtiene de truncar la parte decimal de la división. Entonces, si efectuamos 7/5, el resultado será 1.4, pero si lo hacemos 7//5, el resultado será 1.
+
+Prioridad
+
+Se refiere a cuáles operaciones se ejecutan primero y cuáles de últimas, y la asociatividad se refiere al orden en el que se ejecutan operaciones consecutivas con la misma prioridad.
+
+1.Primero se ejecutan las operaciones de potenciación.
+
+2.En segundo lugar, se ejecutan las operaciones de multiplicación, división y módulo.
+
+3.En tercer lugar, se ejecutan las operaciones de sumas y restas.
+
+Asociatividad:
+
+1.Cuando se hallan operaciones consecutivas de potenciación, estas se ejecutan de derecha a izquierda, es decir, la operación de potenciación es asociativa por la derecha
+
+2.Las demás operaciones son asociativas por la izquierda, es decir, se ejecutan en el orden en que aparezcan, de izquierda a derecha. En otras palabras, las operaciones multiplicación, división, módulo, suma y resta son asociativas por la izquierda.
+
+
