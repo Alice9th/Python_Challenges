@@ -1,0 +1,31 @@
+Conversión de expresiones algebraicas a expresiones de computador
+
+Operadores lógicos:
+
+El operador lógico “and” tiene una prioridad operacional inferior a “not” y superior a “or”.
+
+>>> (5 > 6) or (3 == 3) and (2 >= 4)
+
+False
+
+
+Note que primero se realizan las operaciones relacionales: “False or True and False”; posteriormente se evalúa el operador “and” debido a su prioridad sobre el “or”: “False or False”; finalmente se evalúa el operador “or”: “False”
+
+Finalmente, de los operadores vistos, el de menor prioridad es el operador lógico “or” con una prioridad inferior al operador lógico “and”.
+
+
+>>> True or False and False or False
+True
+
+
+Note que primero se evalúa el operador “and”: “True or False or False”; luego el primer operador “or”: “True or False”; finalmente se evalúa el operador “or” sobrante: “True”.
+
+
+Para el caso es prudente agrupar los “or” anteriores para probar cómo cambia el resultado final.
+
+
+>>> (True or False) and (False or False)
+False
+
+
+Note que primero se evalúan los “or” dentro de los paréntesis: “True and False”; y tras evaluar la operación “and”: “False” se obtiene un resultado diferente al de la expresión original.
