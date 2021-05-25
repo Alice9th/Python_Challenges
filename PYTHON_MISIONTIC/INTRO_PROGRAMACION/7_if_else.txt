@@ -1,0 +1,16 @@
+Instrucción if – else: instruccion estructura-decisión
+
+IF:
+
+forma general:
+
+if (espacio) condicion:
+    instruccion 1
+    instruccion 2
+
+(si estas condiciones no se cumplen se pasa al else)
+else:
+    otra instruccion 1
+    otra instruccion 2
+
+

@@ -1,0 +1,21 @@
+Expresiones relacionales y lógicas e instrucción if – else
+
+Sirven para determinar si una relacion es Verdadera o Falsa (comparación)
+
+Expresion logica: sucesion de operandos logicos y operadores/conectores logicos
+
+Operandos logicos: expresiones relacionales o artimeticas conectadas con operadores
+
+Conectores/operadores logicos:
+- AND
+- OR
+- NOT
+
+Prioridad: primero se evalúan las negaciones (NOT), luego las conjunciones (AND) y por último las disyunciones (OR)
+
+Asociatividad: operadores consecutivos de la misma prioridad se evalúan de izquierda a derecha en el orden que aparezcan. SOn asociativos por la izquierda
+
+Evaluacion  de expresiones:
+1. Expresiones aritméticas
+2. Expresiones relacionales
+3. Operadores logicos
