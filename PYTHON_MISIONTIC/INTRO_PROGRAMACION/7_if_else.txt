@@ -13,4 +13,14 @@ else:
     otra instruccion 1
     otra instruccion 2
 
+Estructura decisión (instrucción if)
 
+Definición. La estructura decisión permite instruir al computador para que ejecute ciertas acciones (instrucciones) según alguna condición.
+
+Las instrucciones que pertenecen a la estructura decisión son: 
+
+1.La instrucción SI (if) y su componente opcional DE_LO_CONTRARIO (else)
+
+2.La instrucción CASOS (if elif else en Python)
+
+La parte else de la forma general no siempre va. Hay situaciones en las cuales es necesaria, pero hay otras en las que no se necesita.
