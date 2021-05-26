@@ -4,3 +4,51 @@ Proceso de selección múltiple
 Se presenta la situación de selección múltiple, que consiste en optar por una decisión que excluye a las otras en un abanico de posibilidades.
 
 
+Ejercicio de selección múltiple
+
+Se presenta un ejercicio completo del uso de las instrucciones if-else e if-el (el cual es extremadamente largo)
+
+Ya hemos visto que la estructura decisión se puede construir con la instrucción if y su componente opcional else. Sin embargo, hay situaciones en las cuales su utilización genera algoritmos poco legibles y quizá más complejos. Con el fin de evitar estos inconvenientes se ha creado la instrucción casos, que permite construir algoritmos más legibles y menos complejos.
+
+Forma general.
+
+La forma general de la instrucción casos es:
+
+CASOS
+
+:condición 1: instrucciones que se ejecutan cuando la condición 1 es verdadera
+
+                                   SALTE
+
+:condición 2: instrucciones que se ejecutan cuando la condición 2 es verdadera
+
+                                   SALTE
+:condición n: instrucciones que se ejecutan cuando la condición 1 es verdadera
+
+                                   SALTE
+:OTRO_CASO: instrucciones que se ejecutan cuando ninguna de las condiciones anteriores es verdadera
+
+Fin(CASOS)
+
+El componente SALTE presente al final de cada condición es opcional, y su función es que cuando detecte que la condición i fue verdadera no siga preguntado por las demás condiciones, es decir, que continúe la ejecución con la instrucción siguiente a Fin(CASOS).
+
+En C y Java la instrucción casos es la instrucción switch y el salte es la palabra break.
+
+En Python no existe esa instrucción como tal, pero funciona igual usando la estructura if – elif – else: 
+
+if condición 1:
+
+instrucciones que se ejecutan cuando la condición 1 es verdadera
+
+elif condición 2:
+
+instrucciones que se ejecutan cuando la condición 2 es verdadera
+lif condición n:
+
+instrucciones que se ejecutan cuando la condición n es verdadera
+
+else: 
+
+instrucciones que se ejecutan cuando ninguna condición es verdadera
+
+
