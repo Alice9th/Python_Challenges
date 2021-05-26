@@ -1,3 +1,90 @@
+Control de flujo:
+
+Qué es un control de flujo?
+Para entender cómo funciona un control de flujo, primero se debe entender el concepto de flujo y su funcionamiento en Python, así como otros elementos importantes en este.
+
+
+Flujo
+
+El flujo es el orden en que se ejecutan las instrucciones o líneas de código. En Python, las líneas de código se ejecutan de arriba hacia abajo. 
+
+If:
+
+Ahora bien, hay sentencias que permiten controlar el flujo, bien sea permitiendo omitir todo un bloque de código o repitiendo el mismo. La primera a ver será la sentencia if (significa “si” en inglés, pero se refiere al “si” condicional. Ej.: “Si cuatro es menor que cinco, entonces…”), la cual permite que se ejecute un bloque de instrucciones, dependiendo del cumplimiento de una condición que se defina, o bien omitirlo en caso de que no se cumpla la condición.
+
+
+
+a. Definir un if
+
+Para definir un if, primero se debe sentenciar usando la palabra clave if; luego, entre paréntesis “()”, se indica la condición que permitirá la ejecución del bloque de código (una condición suele ser una operación relacional y/o lógica que debe dar como resultado True para ejecutar la sentencia) y por último se agregan dos puntos “:”. Tras esto, se hace un salto de línea a partir del cual se escribirá un bloque de código con UNO de indentación más, el cual será el bloque de código a ejecutar bajo el cumplimiento de la condición
+
+
+While:
+
+Hay otro tipo de sentencias para control de flujo, que son las sentencias de iteración, iteradores o comúnmente conocidos como bucles. La sentencia while es una de estas, y se usa para ejecutar un bloque de código en repetidas veces si una condición se cumple. Luego de esta ejecución, el flujo regresa nuevamente al principio del while, donde evalúa una vez más la condición que se definió para ejecutar de nuevo el bloque de código en caso de que la condición se cumpla; este proceso lo realiza una y otra vez hasta que la condición del while no se cumpla más. Luego de esto la ejecución retomará su flujo fuera de la sentencia while. Cabe aclarar que a las repeticiones que se den dentro del bucle se las conoce como iteración, de allí el nombre de iteradores.
+
+
+
+a. Definir un while
+
+Para definir un while primero se escribe la palabra clave while; luego, entre paréntesis “()”, se indica la condición (la cual permitirá iniciar el bucle) y, por último, se agregan dos puntos “:”. Después de esto se escribe el bloque de código con su respectiva indentación. En cada iteración de un bucle se ejecuta su bloque de código siempre y cuando la condición se cumpla cada que se evalúe.
+
+For:
+
+El for es otro iterador, al igual que el while, con la diferencia de que el for se suele usar para ejecutar un bloque de código un número definido de veces.
+
+
+
+a. Definir un for
+
+Para definir un bucle for se escribe la palabra clave for, seguida del identificador de una variable, la cual va a tomar un valor en cada iteración. Luego de esta variable se agrega la palabra clave in y la función range(), y entre paréntesis se envían dos valores numéricos que definen el rango de los valores que tomará la variable definida; el primer valor es el inicio del rango y el segundo valor es el final del rango. Finalmente se agregan dos puntos “:” para proceder con un salto de línea y el bloque de código a iterar. Análogo al while, en este bucle la condición para seguir ejecutando una y otra vez el mismo bloque de código es que la variable no haya llegado hasta el final del rango que va a usar. 
+
+Break:
+
+La sentencia break, como lo indica su nombre (romper, en inglés), se utiliza para romper un bucle o ciclo en una línea de código específica. Cuando se habla de romper un bucle, se refiere a dar por terminado su flujo, es decir, omitir el resto de las líneas de su bloque de código y el resto de las iteraciones para continuar en la línea que sigue fuera del ciclo.
+
+
+
+Un break se define en una sola línea de código con la palabra clave break.
+
+**La sentencia break se usa únicamente dentro de sentencias de repetición (o bucles); usarla de otra forma causa errores de sintaxis.
+
+
+Continue
+La sentencia continue (continuar, en inglés) se utiliza para terminar la repetición que se esté realizando en el momento, es decir, cuando se usa un continue se va a omitir el resto de las líneas de código que estén dentro del ciclo y va a regresar al inicio de este, donde se evalúa nuevamente la condición que permite entrar en el ciclo.
+
+
+
+Un continue se define en una sola línea de código con la palabra clave continue.
+
+
+
+for variable in range(0,4):
+
+  if(variable == 3): 
+
+  continue
+
+  print(variable)
+
+
+
+Salida de consola:
+
+0
+
+1
+
+2
+
+4
+
+
+**Al igual que el break, la sentencia continue se usa únicamente dentro de sentencias de repetición (o bucles). Usarla de otra forma causa errores de sintaxis.
+
+
+
+----------------------------------------------------------------
 
 Proceso de selección múltiple
 
@@ -50,5 +137,14 @@ instrucciones que se ejecutan cuando la condición n es verdadera
 else: 
 
 instrucciones que se ejecutan cuando ninguna condición es verdadera
+
+
+Cuándo utilizar la estructura if-elif-else?
+
+1.Cuando el resultado de una comparación solo da dos alternativas, se utiliza la instrucción if.
+
+2.Cuando el resultado de una comparación da más de dos alternativas, se utiliza la estructura if – elif – else. 
+
+
 
 
