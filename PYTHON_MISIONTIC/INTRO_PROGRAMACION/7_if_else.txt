@@ -24,3 +24,7 @@ Las instrucciones que pertenecen a la estructura decisión son:
 2.La instrucción CASOS (if elif else en Python)
 
 La parte else de la forma general no siempre va. Hay situaciones en las cuales es necesaria, pero hay otras en las que no se necesita.
+
+Decisiones anidadas
+
+Una primera forma de escribir este algoritmo es siendo exhaustivos en la comparación de los datos.  
