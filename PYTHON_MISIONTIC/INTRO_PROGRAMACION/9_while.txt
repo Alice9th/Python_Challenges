@@ -1,0 +1,11 @@
+Estructura ciclo e instrucción while:
+
+Permite repetir una o más instrucciones, resultado de evaluar una condicion.
+
+Instrucciones:
+- while
+- for
+
+Hay una variable controladora del ciclo (se evalúa en la condición) y de no modificarse el ciclo se ejecutará hasta el infinito
+
+
