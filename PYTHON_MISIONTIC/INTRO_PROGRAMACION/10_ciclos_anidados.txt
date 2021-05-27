@@ -1,3 +1,11 @@
 Ciclos anidados
 
+Hay situaciones en las cuales es necesario ejecutar ciclos dentro de un ciclo. Esta situación se conoce como ciclos anidados
+
+Definición. Se definen como ciclos anidados las estructuras en las cuales un ciclo se halla completamente dentro de otro ciclo.
+
+La característica principal que debemos tener en cuenta en esta estructura es que para que se pueda continuar ejecutando un ciclo externo se deben haber terminado de ejecutar completamente sus ciclos internos. Cada vez que continúa la ejecución de un ciclo externo, volverá a ejecutar totalmente sus ciclos internos.
+
+For loops:
+
 
