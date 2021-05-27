@@ -8,4 +8,43 @@ Instrucciones:
 
 Hay una variable controladora del ciclo (se evalúa en la condición) y de no modificarse el ciclo se ejecutará hasta el infinito
 
+Contador:
+
+Cuenta el número de ocurrencias de un evento dentro de un ciclo
+Por lo generarl se inicializan en cero.
+
+
+Acumulador: 
+
+variable en la cual se lleva el total de un concepto específico en un ciclo.
+
+Estructura ciclo, instrucción while:
+
+Definición de estructura ciclo
+
+La estructura ciclo está conformada por un grupo de instrucciones que se ejecutan varias veces dependiendo de alguna condición definida por el usuario. 
+
+Las instrucciones que pertenecen a esta estructura son: 
+
+MIENTRAS (while) y PARA (for)
+
+Instrucción while
+
+La forma general de la instrucción while en Python es:
+
+           while condición: 
+
+conjunto de instrucciones que se ejecutan mientras que la condición sea verdadera
+
+La condición puede ser una expresión relacional o una expresión lógica. Por lo general, en la condición se evalúa el valor de una variable. Esta variable, que se debe modificar en cada iteración, se conoce con el nombre de variable controladora del ciclo.
+
+Concepto de contador
+
+En muchas condiciones es importante conocer, al final del proceso, cuántos empleados se procesaron. Para ello utilizamos una variable adicional, que tendrá un valor inicial de 0, y cada vez que se lean los datos de un empleado la incrementamos en 1. Una variable con 
+esta característica se denomina contador.
+
+Concepto de acumulador
+
+En el programa anterior se presentó el concepto de contador, que es una variable que se utiliza, como su nombre lo dice, para contar las ocurrencias de algún evento. Es también necesario, en muchas ocasiones, conocer totales de ciertos datos, como total de salarios anteriores, total de aumentos y total de nuevos salarios. Para contabilizar estos totales debemos manejar otras tres variables adicionales: una para llevar el total de salarios anteriores, otra para llevar el total de aumentos y otra para llevar el total de nuevos salarios. Llamemos a estas variables tsa, tau y tns, respectivamente. Inicialmente, estas variables deben tener un valor de 0.
+
 
