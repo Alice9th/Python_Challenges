@@ -47,4 +47,10 @@ Concepto de acumulador
 
 En el programa anterior se presentó el concepto de contador, que es una variable que se utiliza, como su nombre lo dice, para contar las ocurrencias de algún evento. Es también necesario, en muchas ocasiones, conocer totales de ciertos datos, como total de salarios anteriores, total de aumentos y total de nuevos salarios. Para contabilizar estos totales debemos manejar otras tres variables adicionales: una para llevar el total de salarios anteriores, otra para llevar el total de aumentos y otra para llevar el total de nuevos salarios. Llamemos a estas variables tsa, tau y tns, respectivamente. Inicialmente, estas variables deben tener un valor de 0.
 
+Aplicación y uso de contadores y acumuladores
+
+Otros datos de interés que se suelen calcular son los promedios de algunos datos. En nuestro ejercicio, por ejemplo, es interesante conocer los promedios de salario anterior, de aumento y de nuevo salario.
+
+En general, para determinar un promedio basta con dividir un acumulador entre un contador. 
+
 
