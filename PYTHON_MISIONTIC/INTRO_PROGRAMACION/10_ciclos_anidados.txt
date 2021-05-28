@@ -25,4 +25,6 @@ Instrucciones continue y break
 
 La instruccion break tiene como objetivo suspender la ejecucion de un ciclo y continuar la ejecución del programa en la instruccion siguiente al fin de ciclo:
 
+continue: suspende la ejecucion de un ciclo y continua su ejecucion con el siguietne valor de la variable controladora del ciclo
+(salta las instrucciones)
 
