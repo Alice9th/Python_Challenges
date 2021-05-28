@@ -8,4 +8,21 @@ La característica principal que debemos tener en cuenta en esta estructura es q
 
 For loops:
 
+i es la variable controladora del ciclo
+valorINicial y variacion son opcionales
+valorFinal es obligatoria
+
+valorInicia: es el primer valor que toma i (por defecto es cero)
+
+valorFinal: indica el último valor que toma la variable i (cuando este valor sea igual al valor de i, el ciclo termina)
+
+variacion: forma como se modifica la varible controladora de ciclo, por defecto +1
+
+**Codigo espagueti: codigo enredado y difícil de comprender**
+
+
+Instrucciones continue y break
+
+La instruccion break tiene como objetivo suspender la ejecucion de un ciclo y continuar la ejecución del programa en la instruccion siguiente al fin de ciclo:
+
 
