@@ -28,3 +28,31 @@ La instruccion break tiene como objetivo suspender la ejecucion de un ciclo y co
 continue: suspende la ejecucion de un ciclo y continua su ejecucion con el siguietne valor de la variable controladora del ciclo
 (salta las instrucciones)
 
+
+Ejemplos de aplicación de la instrucción for
+
+Forma general. La forma general de la instrucción for es:
+
+             for variable in range(valor inicial, valor final, variación)
+
+ donde valor inicial se refiere al primer valor que toma la variable, valor final se refiere al último valor que podrá tomar la variable y variación se refiere a la forma en que se modifica la variable.
+
+Si escribimos for i in range(10), las instrucciones del ciclo se ejecutarán diez veces y los valores que tomará la variable i serán desde 0 hasta 9. 
+
+
+1.En general, si escribimos for i in range(n), las instrucciones del ciclo se ejecutarán n veces y los valores que tomará la variable i serán desde 0 hasta n – 1. 
+
+
+2.Si escribimos for i in range(1, 10), las instrucciones del ciclo se ejecutarán nueve veces y los valores que tomará la variable i serán desde 1 hasta 9.
+
+
+3.En general, si escribimos for i in range(m, n) [m < n], las instrucciones del ciclo se ejecutarán n – m  veces y los valores que tomará la variable i serán desde m hasta n – 1.
+
+
+**tenga presente que el valor final es un valor de referencia y el máximo valor que toma la variable controladora del ciclo es valor final – 1
+
+¿cuándo utilizar la instrucción while y cuándo utilizar la instrucción for? 
+
+La respuesta es más bien sencilla. Cuando la terminación del ciclo esté controlada por el resultado de una operación, es necesario utilizar while en vez de for. Por ejemplo, en la determinación de si un número x es primo o no, el ciclo while se controla con las condiciones i <=  and x % i ≠ 0.
+
+Se recomienda utilizar la instrucción for cuando las instrucciones del ciclo se ejecutan un número fijo de veces, con una variación predefinida.
