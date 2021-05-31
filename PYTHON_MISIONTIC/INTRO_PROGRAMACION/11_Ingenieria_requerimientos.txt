@@ -1,0 +1,92 @@
+Ingeniería de requisitos en el ciclo de vida
+
+1. Modelo de negocio
+2. Análisis de requisitos
+3. Análisis y diseño
+4. Despliegue
+5. Pruebas
+6. Implementacion
+
+Buenas prácticas para Ingeniería de Requisitos
+
+1. Elicitation: scope, vision
+2. Analysis
+3. Specification
+4. Validation
+5. Requirements management
+6. Knowledge
+7. Project management
+
+
+Educción de requisitos
+
+Es el proceso durante el cual se usan diferentes técnicas para obtener requisitos de los implicados (stakeholders) y de otras fuentes, y para refinar los requisitos en un mayor detalle.
+Fases de la educción de requisitos
+
+1. Identificación de las fuentes de información
+
+2. Recolección de la información
+
+3. Comunicación
+
+Fuentes de requisitos:
+- Implicados (stakeholders)
+- DOcumentos
+- Sistemas en operacion
+
+**Modelo Kano (?)
+
+Técnicas de Educción de Requisitos
+
+El principal objetivo de todas las técnicas de educción, es apoyar al ingeniero de requisitos en la obtención del conocimiento y requisitos de los involucrados (stakeholders).
+
+
+- Cómo y cuándo se apliquen, depende de las condiciones dadas.
+
+- Aplicarlas de una manera consciente y apegada a una metodología específica permite obtener requisitos de mayor calidad y que cubran todo el ámbito del proyecto.
+
+Factores que influyen en la selección de técnicas
+
+1. Si el requisito es del tipo consciente, inconsciente o subconsciente.
+
+2. Las restricciones de tiempo y presupuesto, y de disponibilidad de los involucrados.
+
+3. La experiencia en un tipo particular de técnica de educción.
+
+4. Los cambios y riesgos del proyecto.
+
+Documentación de requisitos:
+
+
+En Ingeniería de Requisitos toda la información resultante de cualquier actividad debe ser documentada
+
+Especificación de Requisitos
+
+Una especificación de requisitos es una colección de requisitos representada sistemáticamente, por lo general para un sistema o componente, que satisface unos criterios dados
+
+Tipos de documentacion:
+
+1. Datos: punto de vista estático o estructural
+2. Funcional: info recibida y devuelta desde el contexto del sistema
+3. De comportamiento: info acerca del sistema (eventos, transiciones de estos y efectos del sistema sobre su contexto)
+
+Documentos de requisitos se usan para:
+
+1. Planeacion
+2. Diseño de arquitectura
+3. Pruebas
+4. Gestion del cambio
+5. Uso y mantenimiento del sistema
+6. Gestion contractual
+
+Calidad de los documentos de requisitos:
+
+1. COnsistentes y sin ambigüedades
+2. Estructura clara
+3. Facilmente modificables y entendibles
+4. Completitud
+5. TRazabilidad
+
+
+
+
