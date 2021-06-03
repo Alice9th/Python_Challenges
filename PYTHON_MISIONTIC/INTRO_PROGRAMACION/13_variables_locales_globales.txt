@@ -1,0 +1,32 @@
+Variables locales y variables globales. 
+
+Dentro de un subprograma se pueden definir nuevas variables. 
+Las variables que se definen dentro del subprograma se denominan locales y solo existirán mientras se esté ejecutando el subprograma; cuando termina la ejecución del subprograma, dichas variables desaparecen. 
+
+Si dentro de un subprograma se utilizan variables definidas por fuera del subprograma, dichas variables se llaman globales. En Python, si se desea trabajar variables globales, hay que especificar dentro del subprograma cuáles son esas variables globales. 
+
+Por ejemplo, si se tiene una función con las siguientes instrucciones:
+
+def misterio(m, n):
+
+        global p
+print("Misterio ")
+i = 1
+while i <= m:
+                 j = 1
+
+p = p + 1
+
+while j <= n:
+
+k = i * j
+
+print("\t", i, "\t*", "\t", j, "\t=", "\t", k)
+
+j = j + 1
+
+i = i + 1
+
+           print(p)
+
+La variable p está definida como global; por tanto, en todo programa principal o programa llamante que desee utilizar dicha variable p también debe estar definida como global. Esto significa que todas las modificaciones que se hagan a la variable p dentro de la función afectan el valor de p fuera de la función.

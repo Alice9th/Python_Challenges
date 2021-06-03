@@ -1,0 +1,35 @@
+SUBPROGRAMA
+
+Programa pequeño que desarrolla/efectua una tarea específica y retorna un valor.
+
+Definicion:
+conjunto de isntrucciones con nombre propio, recibe datos con los que ejecutan una tarea específica y retornan un resultado
+
+EN python
+
+def : palabra que define el nombre del subprograma
+
+nombre del subprograma
+
+datos de entrada (parámetros)
+
+variables locales (definidas dentro del subprograma y que se utilizan para ejecutar la tarea definida)
+
+instruccion return: retorna los valores calculados (no siempre es necesaria
+
+Concepto e identificación de subprograma
+
+Una de las principales técnicas para solucionar problemas es identificar las diferentes tareas que hay que ejecutar y resolver cada una de ellas en forma independiente, para luego construir la solución ensamblando como un todo las tareas que se solucionaron independientemente.
+El programa correspondiente a cada una de esas tareas se denomina subprograma.
+
+Definición
+
+Los subprogramas son algoritmos que se elaboran en forma independiente y que tienen la característica de que se pueden invocar desde cualquier programa cuando se necesiten. El objetivo principal de utilizar subprogramas es elaborar algoritmos más cortos, menos complejos, más legibles y más eficientes.
+
+OJO: todo subprograma se tiene que escribir antes de cualquier programa que lo utilice. En general, uno puede definir tantos subprogramas como desee.
+
+Sin embargo, definir subprogramas en el archivo en el cual uno los utiliza no es lo más apropiado, dado que dichos subprogramas sólo podrán ser utilizados por el programa de ese archivo. Si nosotros almacenamos los subprogramas en un archivo aparte, podremos hacer uso de esos subprogramas en cualquier programa que se desarrolle.
+
+En general, todo subprograma debe retornar un valor; sin embargo, hay situaciones en las cuales solo se requiere que haga una tarea sin retornar ningún valor.
+
+Por último, digamos que en Python los subprogramas reciben el nombre de funciones.
