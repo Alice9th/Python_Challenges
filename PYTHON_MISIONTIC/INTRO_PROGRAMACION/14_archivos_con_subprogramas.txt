@@ -1,0 +1,6 @@
+Se crea un archivo con un def (factorial), que me almacena mi programa.
+Para utilizarlo se importa con su nombre y se le puede asignar un alias.
+
+import factorial as fc
+
+import misFunciones as mf

@@ -1,0 +1,26 @@
+Vectores
+
+utilizando una estructura arreglo de una dimensión en la cual definimos un área de memoria con cierto número de posiciones e identificamos cada posición con un número entero.
+
+Dicha estructura se conoce como un “arreglo de una dimensión” y en el contexto de algoritmia se denomina vector. 
+
+En general, para referirnos al contenido de una posición, lo hacemos con el nombre del vector y un entero que se refiere a la posición. Dicho entero lo escribimos entre corchetes y lo seguiremos llamando subíndice.
+
+La instrucción V = [0] * 10 crea un vector denominado V, que tiene la siguiente configuración:
+
+    1 2 3 4 5 6 7 8 9
+V   0 0 0 0 0 0 0 0 0
+
+La instrucción V = [3] * 12 crea un vector denominado V, que tiene la siguiente configuración:
+
+    1 2 3 4 5 6 7 8 9 10 11
+V   3 3 3 3 3 3 3 3 3 3  3
+
+El valor entre corchetes será el valor inicial de cada celda. El hecho de que este valor esté entre corchetes significa que la variable es un arreglo de una dimensión (vector) y el número a continuación del asterisco indica el número de posiciones que tendrá el arreglo. Dichas posiciones van numeradas a partir de 0.
+
+
+** En general, si la definición es V = [0] * n, el vector tendrá n posiciones numeradas desde 0 hasta n – 1.
+
+Definición, representación y uso
+
+
