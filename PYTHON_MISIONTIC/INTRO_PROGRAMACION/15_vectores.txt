@@ -21,6 +21,12 @@ El valor entre corchetes será el valor inicial de cada celda. El hecho de que e
 
 ** En general, si la definición es V = [0] * n, el vector tendrá n posiciones numeradas desde 0 hasta n – 1.
 
-Definición, representación y uso
+
+1. Búsqueda secuencial: Si queremos buscar el número 5 y efectuamos el algoritmo anterior, hay que hacer siete comparaciones para poder decir que el 5 no está. A este proceso de búsqueda se lo conoce como búsqueda secuencial.
+
+2. Búsqueda binaria: El dato a buscar, el 31, es mayor que el dato de la mitad (el 28); por consiguiente, si el 31 se encuentra en el vector deberá estar en alguna posición de la 11 en adelante, ya que los datos están ordenados ascendentemente. En otras palabras, con una sola comparación se reduce el conjunto en el que hay que efectuar la búsqueda a la mitad.
+Si el tamaño del conjunto de datos hubiera sido de un millón, con la primera comparación se reduce el tamaño sobre el cual hay que efectuar la búsqueda a 500.000. Con la segunda comparación, se reduce a 250.000; con la tercera comparación, se reduce a 125.000, y así sucesivamente. Con cada comparación el tamaño sobre el cual hay que buscar será siempre la mitad. 
+
+
 
 
