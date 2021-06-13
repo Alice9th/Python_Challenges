@@ -83,11 +83,22 @@ Comportamientos diferentes, asociados a objetos distintos, pueden compartir el m
 
 "Polimorfismo dinámico”. Cuando se tiene una clase derivada, los objetos de esta clase invocan métodos. Si encuentra el método en la clase derivada, ejecuta ese método; Si existen métodos que tienen el mismo nombre, los objetos pertenecientes a la clase derivada ejecutan el método definido en la clase derivada y los objetos pertenecientes a la clase base ejecutan el método definido en la clase base (polimorfismo dinámico)si no, busca el método en la clase base y ejecuta el método de la clase base (reutilización).
 
+Permite crear y/o reemplazar métodos de la clase base en cada subclase
+
 5.Herencia
 Las clases no están aisladas, sino que se relacionan entre sí, formando una jerarquía de clasificación. Los objetos heredan las propiedades y el comportamiento de todas las clases a las que pertenecen. La herencia organiza y facilita el polimorfismo y el encapsulamiento permitiendo a los objetos ser definidos y creados como tipos especializados de objetos preexistentes. Estos pueden compartir (y extender) su comportamiento sin tener que volver a implementarlo. Esto suele hacerse habitualmente agrupando los objetos en clases y estas en árboles o enrejados que reflejan un comportamiento común. Cuando un objeto hereda de más de una clase se dice que hay herencia múltiple.
 La herencia es una propiedad de la programación orientada a objetos que permite definir clases con base en clases previamente definidas. Cuando una clase se define derivada de otra, se denomina “subclase” o “clase derivada”, mientras que la clase principal se denomina “superclase” o “clase base”.
+Es decir, es la caracteristica que permite a los objetos ser construídos a partir de otros objetos.
+Objetivo principal: reutilizacion del código.
+Puede ser simple (heredar datos y métodos de una única clase) o multiple.
+
 
 6.Recolección de basura
 La recolección de basura o garbage collector es la técnica por la cual el entorno de objetos se encarga de destruir automáticamente, y por tanto desvincular la memoria asociada, los objetos que hayan quedado sin ninguna referencia a ellos. Esto significa que el programador no debe preocuparse por la asignación o liberación de memoria, ya que el entorno la asignará al crear un nuevo objeto y la liberará cuando nadie lo esté usando.
+
+propiedad de Python se denomina sobrecarga de operadores: 
+La instrucción número 1 define el método para sumar el objeto que invoca el método (self) con el objeto b enviado como parámetro. El hecho de definirlo con __add__ lo que hace es sobrecargar el operador de suma (+), es decir, cuando se deseen sumar dos objetos de la clase altaPrecision, digamos a y b, entonces podremos escribir la instrucción c = a + b
+
+
 
 
